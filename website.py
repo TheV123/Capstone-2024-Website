@@ -296,6 +296,7 @@ fig_aftershock_distances_over_10.update_layout(xaxis_title='X', yaxis_title='Y')
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Capstone Research Spr 2024", style={'textAlign': 'center'}),
