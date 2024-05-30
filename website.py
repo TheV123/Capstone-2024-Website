@@ -9,8 +9,8 @@ from dash import dcc, html
 import dash_html_components as html
 
 #import datasets
-etas = pd.read_csv('datasets\\ModifiedETAS.csv', sep=',', lineterminator='\n')
-usgs = pd.read_csv('datasets\\USGS.csv', sep=',', lineterminator='\n')
+etas = pd.read_csv('./datasets/ModifiedETAS.csv', sep=',', lineterminator='\n')
+usgs = pd.read_csv('./datasets/USGS.csv', sep=',', lineterminator='\n')
 
 #aftershock column
 etas_aftershock = etas.copy()
